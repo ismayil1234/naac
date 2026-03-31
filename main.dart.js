@@ -86637,7 +86637,7 @@ return A.S($async$$0,r)},
 $S:26}
 A.app.prototype={
 $1(a){var s=null
-return new A.rK(A.a5("Install App",s,s,s,s,s,s),A.a5("To install: tap the 'Share' icon in ios or 'Add to home screen in android' and then 'Add to Home Screen'.",s,s,s,s,s,s),A.b([A.aiQ(A.a5("OK",s,s,s,s,s,s),new A.apo(a),s)],t.p),s)},
+return new A.rK(A.a5("Install App",s,s,s,s,s,s),A.a5(" On Android:\nTap the \u22ee (menu) in the top right corner and select \u201cAdd to Home screen.\u201d\nOn iPhone/iPad:\nTap the Share icon  and choose \u201cAdd to Home Screen.\u201d ",s,s,s,s,s,s),A.b([A.aiQ(A.a5("OK",s,s,s,s,s,s),new A.apo(a),s)],t.p),s)},
 $S:570}
 A.apo.prototype={
 $0(){A.nj(this.a,!1).hW(null)
