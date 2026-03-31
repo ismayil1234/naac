@@ -1,7 +1,7 @@
 {
     "name": "IQAC",
     "short_name": "IQAC",
-    "start_url":"./",
+    "start_url":"/naac/",
     "scope": "/naac/",
     "display": "standalone",
     "background_color": "#ffffff",
