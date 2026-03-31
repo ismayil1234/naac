@@ -66,9 +66,14 @@
         }
       }
 
+<!--      function isAppInstalled() {-->
+<!--        return isInstalled || window.matchMedia('(display-mode: standalone)').matches;-->
+<!--      }-->
+
       function isAppInstalled() {
-        return isInstalled || window.matchMedia('(display-mode: standalone)').matches;
-      }
+  // Checks if the media display is standalone (PWA launched)
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
   </script>
 </body>
 </html>
