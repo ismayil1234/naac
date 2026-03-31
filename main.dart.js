@@ -86496,9 +86496,12 @@ $S:0}
 A.A_.prototype={
 am(){return new A.Ty(new A.ch(!0,$.as()))}}
 A.Ty.prototype={
-aA(){this.aT()
-var s=v.G
-if(!s.isAppInstalled())this.e.su(!0)
+aA(){var s,r
+this.aT()
+s=v.G
+r=this.e
+if(!s.isAppInstalled())r.su(!0)
+else r.su(!1)
 s.window.addEventListener("beforeinstallprompt",A.ff(new A.apx(this)))},
 J(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e="Chillax",d=t.P
 A.y(a,!0,d)
@@ -86634,7 +86637,7 @@ return A.S($async$$0,r)},
 $S:26}
 A.app.prototype={
 $1(a){var s=null
-return new A.rK(A.a5("Install App",s,s,s,s,s,s),A.a5("To install: tap the 'Share' icon and then 'Add to Home Screen'.",s,s,s,s,s,s),A.b([A.aiQ(A.a5("OK",s,s,s,s,s,s),new A.apo(a),s)],t.p),s)},
+return new A.rK(A.a5("Install App",s,s,s,s,s,s),A.a5("To install: tap the 'Share' icon in ios or 'Add to home screen in android' and then 'Add to Home Screen'.",s,s,s,s,s,s),A.b([A.aiQ(A.a5("OK",s,s,s,s,s,s),new A.apo(a),s)],t.p),s)},
 $S:570}
 A.apo.prototype={
 $0(){A.nj(this.a,!1).hW(null)
