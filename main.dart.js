@@ -86611,11 +86611,14 @@ $S:0}
 A.A3.prototype={
 am(){return new A.TC(new A.ch(!0,$.as()))}}
 A.TC.prototype={
-aA(){this.aT()
-if(!this.WV()){var s=$.rH()
-if(s.a){s=s.b
-s=s!==B.nS&&s!==B.nT}else s=!1
-this.e.su(s)}},
+aA(){var s,r
+this.aT()
+s=this.e
+if(this.WV())s.su(!1)
+else{r=$.rH()
+if(r.a){r=r.b
+r=r!==B.nS&&r!==B.nT}else r=!1
+s.su(r)}},
 WV(){var s=v.G,r=s.window.navigator.userAgent.toLowerCase(),q=!0
 if(!B.c.n(r,"iphone"))if(!B.c.n(r,"ipad"))s=B.c.n(r,"macintosh")&&s.window.navigator.maxTouchPoints>1
 else s=q
