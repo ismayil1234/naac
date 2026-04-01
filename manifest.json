@@ -5,7 +5,7 @@
     "scope": "/naac/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#0175C2",
+    "theme_color": "#1ECAD3",
     "description": "IQAC Data Collection App",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
